@@ -3,76 +3,115 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Umadhevi Duraimuruggan| AI Developer</title>
+  <title>Umadhevi D | Technology Lead</title>
   <style>
+    /* Base Styling */
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      background: #f7f9fc;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background: #f4f6fb;
       color: #333;
       line-height: 1.6;
     }
+
+    h1, h2, h3 {
+      margin: 0 0 10px;
+    }
+
+    /* Header */
     header {
-      background: linear-gradient(120deg, #6a11cb, #2575fc);
+      background: linear-gradient(135deg, #2575fc, #6a11cb);
       color: white;
-      text-align: center;
       padding: 60px 20px;
+      text-align: center;
     }
+
     header h1 {
-      margin: 0;
-      font-size: 2.5rem;
+      font-size: 2.8rem;
+      margin-bottom: 10px;
     }
+
     header p {
       font-size: 1.2rem;
-      margin-top: 10px;
+      opacity: 0.9;
     }
+
+    /* Navigation */
     nav {
-      background: white;
+      background: #fff;
       box-shadow: 0 2px 4px rgba(0,0,0,0.1);
       position: sticky;
       top: 0;
       z-index: 10;
     }
+
     nav ul {
       display: flex;
       justify-content: center;
-      margin: 0;
       padding: 10px;
+      margin: 0;
       list-style: none;
     }
-    nav li {
-      margin: 0 15px;
-    }
+
     nav a {
       text-decoration: none;
+      margin: 0 15px;
       color: #333;
       font-weight: bold;
     }
-    section {
-      padding: 60px 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-    section h2 {
-      text-align: center;
-      margin-bottom: 30px;
+
+    nav a:hover {
       color: #2575fc;
     }
-    .projects {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
+
+    /* Sections */
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
     }
+
+    section h2 {
+      text-align: center;
+      color: #2575fc;
+      margin-bottom: 40px;
+    }
+
     .card {
-      background: white;
-      border-radius: 10px;
+      background: #fff;
       padding: 20px;
+      border-radius: 12px;
       box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-      transition: transform 0.2s;
+      margin-bottom: 20px;
     }
-    .card:hover {
-      transform: translateY(-5px);
+
+    /* Timeline */
+    .timeline {
+      border-left: 3px solid #2575fc;
+      margin-left: 20px;
+      padding-left: 20px;
     }
+
+    .timeline .job {
+      margin-bottom: 30px;
+    }
+
+    .timeline .job h3 {
+      color: #6a11cb;
+    }
+
+    /* Contact */
+    .contact p {
+      text-align: center;
+      font-size: 1.1rem;
+    }
+
+    .contact a {
+      color: #2575fc;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
     footer {
       text-align: center;
       background: #333;
@@ -80,6 +119,7 @@
       padding: 20px;
       margin-top: 40px;
     }
+
     .btn {
       display: inline-block;
       background: #2575fc;
@@ -95,6 +135,104 @@
 
   <!-- Header -->
   <header>
-    <h1>Umadhevi D</h1>
-    <p>AI Developer & Researcher | Auckland, New Zealand</p>
-    <a href="#contact" cla
+    <h1>Umadhevi Duraimuruggan</h1>
+    <p>Technology Lead | Software QA & Automation Testing | 10+ Years Experience</p>
+    <p>📧 umadhevid@gmail.com | 📱 +64 2902098555</p>
+    <a href="#contact" class="btn">Get in Touch</a>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#summary">Summary</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Professional Summary -->
+  <section id="summary">
+    <h2>Professional Summary</h2>
+    <div class="card">
+      <p>
+        10 years of experience in Software Automation Testing (Selenium with Java & Sikuli),
+        Manual Testing, and Production Support. Expertise in DevOps, Agile methodologies,
+        defect management, test strategies, automation, and client demos.
+      </p>
+      <p>
+        Recognized with multiple awards for outstanding performance at Infosys.
+        Passionate about QA leadership, problem solving, and delivering quality products.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills">
+    <h2>Technical Skillset</h2>
+    <div class="card">
+      <ul>
+        <li><strong>Programming:</strong> Python, Java, SQL</li>
+        <li><strong>Automation:</strong> Selenium, Sikuli, Postman, SOAP UI</li>
+        <li><strong>Tools:</strong> HP ALM, JIRA, TestRail, Splunk</li>
+        <li><strong>Methodologies:</strong> Agile, Scrum, DevOps, Waterfall</li>
+        <li><strong>Cloud/Platforms:</strong> Microsoft Azure, AWS</li>
+        <li><strong>Domain:</strong> Telecom</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience">
+    <h2>Professional Experience</h2>
+    <div class="timeline">
+
+      <div class="job">
+        <h3>Technology Lead | Infosys Limited</h3>
+        <small>Oct 2022 – Feb 2023 | Bangalore, India</small>
+        <p>Managed offshore QA automation team, conducted scrums, client demos, and automated test cases with Selenium/Java. Delivered QA reports ensuring release readiness.</p>
+      </div>
+
+      <div class="job">
+        <h3>Technology Analyst | Infosys Limited</h3>
+        <small>Jul 2018 – Oct 2022 | Bangalore, India</small>
+        <p>Designed test plans, executed test cases, tracked defects in JIRA, provided feedback to developers, and certified set top box models. Mentored junior team members.</p>
+      </div>
+
+      <div class="job">
+        <h3>System Engineer | Infosys Limited</h3>
+        <small>Mar 2013 – Jul 2018 | Bangalore, India</small>
+        <p>Analyzed production issues using Splunk & AppDynamics, logged defects in JIRA, and monitored application workflows. Conducted root cause analysis for incidents.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education">
+    <h2>Academics</h2>
+    <div class="card">
+      <ul>
+        <li>B.E. Electronics & Instrumentation | Karpagam College of Engineering (Anna University), 2012 | CGPA: 8.59</li>
+        <li>12th | Reliance Matric Higher Secondary School, Erode | 86%</li>
+        <li>10th | Reliance Matric Higher Secondary School, Erode | 85%</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:umadhevid@gmail.com">umadhevid@gmail.com</a></p>
+    <p>Phone: <a href="tel:+642902098555">+64 2902098555</a></p>
+    <p>GitHub: <a href="https://github.com/Umadhevid" target="_blank">github.com/Umadhevid</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Umadhevi Duraimuruggan | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
