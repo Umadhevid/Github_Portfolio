@@ -74,10 +74,7 @@ h6 {
     height: 100vh;
     color: #ffffff;
 }
-.top-header {
-    padding: 60px 0;
-    background-color: #f8f9fa; /* Optional: light background */
-}
+
 
 
 .top-header:after {
