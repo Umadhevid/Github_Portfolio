@@ -122,12 +122,12 @@
 
 
     // Testimonials carousel
-    $(".testimonials-carousel").owlCarousel({
-        autoplay: true,
-        dots: true,
-        loop: true,
-        items: 1
-    });
+    // $(".testimonials-carousel").owlCarousel({
+    //     autoplay: true,
+    //     dots: true,
+    //     loop: true,
+    //     items: 1
+    // });
 
 })(jQuery);
 
